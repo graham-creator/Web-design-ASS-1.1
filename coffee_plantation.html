@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Hills Coffee Plantation</title>
+   <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      line-height: 1.6;
+      color: #2b1b12;
+      background: #f0f0f0;
+      padding: 20px 0;
+    }
+    .main {
+      max-width: 580px;
+      margin: 0 auto;
+      padding: 24px 20px;
+      background: #ffffff;
+      border: 1px solid #dcdcdc;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    header {
+      background-color: #2e5233;
+      color: white;
+      padding: 16px 20px;
+      border-radius: 6px 6px 0 0;
+      margin: -24px -20px 20px -20px;
+    }
+    header::before {
+      content: "WELCOME TO OUR FARM";
+      display: block;
+      font-size: 0.65rem;
+      letter-spacing: 1px;
+      margin-bottom: 4px;
+      color: #d4ebd0;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+    }
+    h1 { 
+      font-size: 1.35rem; 
+      color: #ffffff; 
+      margin: 0; 
+      font-family: Georgia, serif;
+    }
+    header::after {
+      content: "Growing quality coffee, from our farm to your cup.";
+      display: block;
+      font-size: 0.8rem;
+      margin-top: 4px;
+      color: #e2f0df;
+      font-family: Arial, sans-serif;
+    }
+    h2 { 
+      font-size: 1.05rem; 
+      color: #2e5233; 
+      border-bottom: 1px solid #e4d3c0; 
+      padding-bottom: 4px; 
+      margin: 28px 0 10px; 
+    }
+    p { margin: 0 0 16px; font-size: 0.95rem; }
+    .intro { background: #fffdf9; padding: 2px 0; }
+    img { max-width: 100%; border-radius: 6px; height: auto; }
+    .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0; }
+    a.btn {
+      background: #2e5233;
+      color: #fffdf9;
+      text-decoration: none;
+      padding: 10px 14px;
+      border-radius: 6px;
+      font-family: Arial, sans-serif;
+      font-size: 0.85rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border: 1px solid #2e5233;
+    }
+    a.btn:last-child {
+      background: #ffffff;
+      color: #2e5233;
+    }
+    a.btn:hover { opacity: 0.9; }
+    .panel { background: #fff; border-radius: 6px; padding: 0 4px; }
+    ul, ol { margin: 0; padding-left: 1.4rem; font-size: 0.95rem; }
+    li { margin: 4px 0; }
+    dl { margin: 0; font-size: 0.95rem; }
+    dt { font-weight: bold; color: #2b1b12; margin-top: 10px; }
+    dd { margin: 2px 0 0; color: #444; }
+    footer { 
+      margin-top: 30px; 
+      padding: 14px 16px; 
+      background: #f7f4ee; 
+      border: 1px solid #e4d3c0; 
+      border-radius: 6px; 
+      font-family: Arial, sans-serif; 
+      font-size: 0.8rem; 
+      color: #2b1b12; 
+    }
+    footer p { margin: 0; }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <header>
+      <h1>Welcome to Green Hills Coffee Plantation</h1>
+    </header>
+
+    <p class="intro">
+      Green Hills Coffee Plantation is a highland coffee estate set among cool,
+      misty ridges. We grow, harvest and prepare coffee with care, so visitors,
+      tourists and buyers can taste the character of our land in every cup.
+    </p>
+
+    <h2>About Our Plantation</h2>
+      <img src="coffee_farm.jpg" alt="Coffee plantation with rows of coffee plants on a hillside" height="300px" width="580px">
+    <div class="links">
+      <a class="btn" href="https://en.wikipedia.org/wiki/Coffee" >Learn About Coffee</a>
+      <a class="btn" href="contact.html">Contact the Plantation</a>
+    </div>
+
+    <h2>Coffee Varieties We Grow</h2>
+    <div class="panel">
+      <ul>
+        <li>Arabica</li>
+        <li>Robusta</li>
+        <li>Batian</li>
+        <li>Ruiru 11</li>
+      </ul>
+    </div>
+
+    <h2>Coffee Production Process</h2>
+    <div class="panel">
+      <ol>
+        <li>Planting</li>
+        <li>Growth and development</li>
+        <li>Harvesting</li>
+        <li>Processing</li>
+        <li>Packaging</li>
+      </ol>
+    </div>
+
+    <h2>Key Plantation Activities</h2>
+    <div class="panel">
+      <dl>
+        <dt>Pruning</dt>
+        <dd>Trimming coffee trees so they stay healthy and produce a stronger crop.</dd>
+        <dt>Harvesting</dt>
+        <dd>Picking only ripe coffee cherries by hand at the right stage of maturity.</dd>
+        <dt>Drying</dt>
+        <dd>Spreading the harvested cherries or parchment in the sun, or using controlled dryers, until the moisture is low enough for storage.</dd>
+      </dl>
+    </div>
+
+    <footer>
+      <p>Green Hills Coffee Plantation. Visitors, tours and coffee enquiries are welcome.</p>
+    </footer>
+  </div>
+</body>
+</html>
